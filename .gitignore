@@ -31,7 +31,14 @@
 *.out
 *.app
 
+proj.win32/Debug_v141/
+proj.win32/Debug/
+proj.win32/.vs/ChessOxygine/v15/
+
 *.ipch
 *.db
 *.tlog
 *.*.db
+*idb
+*.pdb
+*.log
