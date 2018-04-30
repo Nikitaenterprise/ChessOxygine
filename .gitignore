@@ -31,9 +31,9 @@
 *.out
 *.app
 
-proj.win32/Debug_v141/
-proj.win32/Debug/
-proj.win32/.vs/ChessOxygine/v15/
+proj.win32/Debug_v141
+proj.win32/Debug
+proj.win32/.vs/ChessOxygine/v15
 
 *.ipch
 *.db
@@ -42,3 +42,10 @@ proj.win32/.vs/ChessOxygine/v15/
 *idb
 *.pdb
 *.log
+.vs
+.VC.VC.opendb
+.opendb
+.vcxproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.users
