@@ -18,20 +18,18 @@ class Game
 public:
 	Game(const Game &) = delete;
 	Game & operator=(const Game &) = delete;
-	Game();
+	Game(ox::spStage stage);
 	~Game();
 
-	//void run(int minimumFramePerSeconds = 60);
 	std::string getBoardElement(int i, int j) { return _board[j][i]; };
 	Figure & getBoardFigure(int i, int j);
 	void setBoardElement(int i, int j, std::string &str) { _board[j][i] = str; };
+	//void setStagePtr(ox::Stage stage) { _thisStage = &stage; }
 	void deleteFigure(Figure  *figure);
 	void update();
-	//void printBoard();
-
-	//void setUp(ox::Stage stage) { instance = &stage; };
 
 	ox::Resources res;
+	ox::spStage _thisStage;
 	Game *_thisGame = this;
 	std::string _board[8][8] =
 	{
@@ -45,10 +43,8 @@ public:
 		{ "bcastle", "bknight", "bbishop", "bqueen", "bking", "bbishop", "bknight", "bcastle" },
 	};
 
-	//ox::spStage instance;
 private:
-	void processEvents();
-	void render();
 	Field _field;
 	std::vector<Figure*> _figures;
+	
 };

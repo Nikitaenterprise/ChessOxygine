@@ -42,17 +42,8 @@ Field::~Field()
 
 void Field::processEvents(ox::Event * event)
 {
-	ox::logs::messageln("click field");
 }
 
 void Field::update()
 {
 }
-
-//void Field::draw(sf::RenderTarget &target, sf::RenderStates states) const
-//{
-//	for (auto it = _fieldElement.begin(); it != _fieldElement.end(); it++)
-//	{
-//		target.draw(*(*it), states);
-//	}
-//}

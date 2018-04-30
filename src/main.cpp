@@ -3,10 +3,7 @@
 #include "ox/Stage.hpp"
 #include "ox/DebugActor.hpp"
 #include "Game.h"
-//using namespace oxygine;
 
-
-// This function is called each frame
 int mainloop(Game *game)
 {
     // Update engine-internal components
@@ -15,7 +12,6 @@ int mainloop(Game *game)
     bool done = ox::core::update();
 
     // It gets passed to our example game implementation
-    //example_update();
 	game->update();
     // Update our stage
     // Update all actors. Actor::update will also be called for all its children
@@ -46,7 +42,6 @@ void run()
     desc.w = 800;
     desc.h = 800;
 
-    //example_preinit();
 	ox::core::init(&desc);
 
     // Create the stage. Stage is a root node for all updateable and drawable objects
@@ -57,12 +52,8 @@ void run()
     // DebugActor is a helper actor node. It shows FPS, memory usage and other useful stuff
 	ox::DebugActor::show();
 
-    // Initializes our example game. See example.cpp
-    //example_init();
-	Game game;
-	/*ox::Resources rr;
-	rr.loadXML("res.xml");
-	game.res = &rr;*/
+	Game game(ox::getStage());
+	//game.setStagePtr(ox::getStage());
 
 #ifdef EMSCRIPTEN
     /*

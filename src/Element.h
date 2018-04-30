@@ -14,8 +14,6 @@ public:
 	~Element();
 
 	void setScale(const ox::Vector2 &vec);
-	//ox::Vector2 getSizeOfTexture();
-	//void setSpriteFromTexture(const sf::Texture &texture);
 	void setPosition(const ox::Vector2 &vec);
 	void setGamePtr(Game *game);
 	virtual void processEvents(ox::Event *event) = 0;
@@ -30,5 +28,6 @@ public:
 	Game *_thisGame = nullptr;
 
 protected:
+	ox::spSprite DEBUGSprite;
 	ox::spSprite _sprite;
 };

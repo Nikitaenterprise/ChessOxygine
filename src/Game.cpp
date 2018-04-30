@@ -1,13 +1,8 @@
 #include "Game.h"
 
-Game::Game()
+Game::Game(ox::spStage stage)
 {
-	/*desc.title = "Oxygine Application";
-	desc.w = WIDTH;
-	desc.h = HEIGHT;
-	ox::core::init(&desc);
-
-	ox::getStage()->setSize(size);*/
+	_thisStage = stage;
 
 	res.loadXML("res.xml");
 

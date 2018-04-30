@@ -1,5 +1,12 @@
-﻿  Figure.cpp
-d:\учёба\c++\chessoxygine\src\figure.cpp(167): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+﻿  main.cpp
+  Element.cpp
+  Field.cpp
+  Figure.cpp
+d:\учёба\c++\chessoxygine\src\figure.cpp(99): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Game.cpp
+d:\учёба\c++\chessoxygine\src\game.cpp(49): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
+d:\учёба\c++\chessoxygine\src\game.cpp(89): warning C4715: Game::getBoardFigure: значение возвращается не при всех путях выполнения
 main.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
   oxygine_d.lib(jerror.obj) : найден .netmodule MSIL или модуль, откомпилированный с параметром /GL; перезапускается компоновка с параметром /LTCG; добавьте /LTCG в командную строку компоновки для повышения производительности компоновщика
 main.obj : warning LNK4075: эх єўшЄ√трхЄё  "/EDITANDCONTINUE" шч-чр ёяхЎшЇшърЎшш "/INCREMENTAL:NO"
