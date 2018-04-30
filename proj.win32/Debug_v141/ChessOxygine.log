@@ -1,0 +1,9 @@
+﻿  Figure.cpp
+d:\учёба\c++\chessoxygine\src\figure.cpp(167): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+main.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  oxygine_d.lib(jerror.obj) : найден .netmodule MSIL или модуль, откомпилированный с параметром /GL; перезапускается компоновка с параметром /LTCG; добавьте /LTCG в командную строку компоновки для повышения производительности компоновщика
+main.obj : warning LNK4075: эх єўшЄ√трхЄё  "/EDITANDCONTINUE" шч-чр ёяхЎшЇшърЎшш "/INCREMENTAL:NO"
+LINK : warning LNK4098: сшсышюЄхър яю єьюыўрэш■ "MSVCRT" яЁюЄштюЁхўшЄ шёяюы№чютрэш■ фЁєушї сшсышюЄхъ; шёяюы№чєщЄх ярЁрьхЄЁ /NODEFAULTLIB:library
+  ╤ючфрэшх ъюфр
+  ╤ючфрэшх ъюфр чртхЁ°хэю
+  ChessOxygine.vcxproj -> D:\Учёба\C++\ChessOxygine\proj.win32\Debug_v141\ChessOxygine.exe

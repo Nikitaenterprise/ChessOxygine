@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "images" />
+	<set scale_factor = "0.5f" />
+	<atlas w="500" h="500">
+		<image file="wpawn.png"/>
+		<image file="wknight.png"/>
+		<image file="wbishop.png"/>
+		<image file="wcastle.png"/>
+		<image file="wqueen.png"/>
+		<image file="wking.png"/>
+		<image file="bpawn.png"/>
+		<image file="bknight.png"/>
+		<image file="bbishop.png"/>
+		<image file="bcastle.png"/>
+		<image file="bqueen.png"/>
+		<image file="bking.png"/>
+		<image file="Chess_Sprite.png" cols="6" rows="2" trim="true"/>
+	</atlas>	
+</resources>
